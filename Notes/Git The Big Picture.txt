@@ -1,0 +1,19 @@
+git init
+git add .
+git commit -m "Commit Message"
+git log
+git status
+git add <file-name>
+git diff <commit hash> <commit hash>
+git checkout <commit hash>
+git branch <branch-name>
+git switch <branch-name>
+git merge <branch-name>
+
+Two types of version control:
+1. Client-Server
+2. Distributed
+
+git clone <server-name>
+git pull
+pit push

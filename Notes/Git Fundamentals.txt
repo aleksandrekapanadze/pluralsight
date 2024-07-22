@@ -1,0 +1,81 @@
+git rm --cached <file-name> (to remove git but not delete)
+git rm <filename> (to remove git and delete)
+
+Git Command Categories:
+1. Git Basics
+2. Git Branches
+3. Remote Repositories
+4. Undoing Changes
+
+Git Basics:
+git init (Create a new .git repository and begin tracking)
+git add (Move modified files into the staging area)
+git status (Shows you the status of your files)
+git commit (Create a snapshot and commit to .git)
+git config (Set and read specific Git configurations)
+git log (Shows the committed snapshot history)
+git diff (Shows changes between your working directory and staging area)
+
+Git Branches:
+git branch (List, create, or delete branches)
+git checkout (Switch between branches)
+git merge (Bring changes from one branch into another)
+
+Remote Repositories:
+git clone (Copies an entire repository into a new local .git directory)
+git remote (Create and show linked repositories)
+git push (Send updates to associate repositories)
+git pull (Retrieves and integrates changes from other repositories)
+git fetch (Retrieves but doesn't integrate changes from other repositories)
+
+Undoing Changes:
+git revert (Create a new commit that undoes a previous commit)
+git reset (Removes files from the staging area)
+
+git <command> --help
+git version
+type git
+
+Basic Shell Commands:
+pwd (Print Working Directory)
+mkdir (Craete New Directory)
+ls (List)
+cd (Change Directory)
+touch (Create New File)
+
+git branch -m <branch-name> (Change branch name)
+git config --global init.defaultBranch <name>
+
+Git Configuration Levels:
+1. --system (System Level Config)
+2. --global (User Level Config)
+3. --local (Single Git Repository Level Config)
+
+git config --global user.name "<name>"
+git config --global user.email "<email>"
+git config --global --list
+git config --global --unset user.name
+
+https://github.com/a-a-ron/coffee-shop-recipes
+
+Merge Strategies:
+1. Fast-Forward Merge
+2. 3-Way Merge
+3. Git Rebase
+
+git --amend
+
+Type "i" to make changes to the file (esc to exit)
+Type ":wq" to save and quit the Vim Editor
+
+git reset --soft (to staged)
+git reset --mixed (to modified)
+git reset --hard (delete)
+
+git reflog
+git cherry-pick <commit-hash>
+
+Workflows:
+1. Basic Workflow
+2. Feature Branch Workflow
+3. Git Flow
