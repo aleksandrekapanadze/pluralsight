@@ -1,0 +1,5 @@
+git hash-object
+echo "Apple Pie" | git hash-object --stdin -w
+git cat-file <hash> -t
+git cat-file <hash> -p
+git count-objects
